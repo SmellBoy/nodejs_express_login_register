@@ -2,11 +2,7 @@
 // dao/userSqlMapping.js
 // CRUD SQL语句
 var user = {
-	insert:'insert into user(id, name, age) values(0,?,?);',
-	update:'update user set name=?, age=? where id=?;',
-	delete: 'delete from user where id=?;',
-	queryById: 'select * from user where id=?;',
-	queryAll: 'select * from user;'
+	login: 'select count(1) as flag from login where username=? and password=?;'
 };
  
 module.exports = user;
