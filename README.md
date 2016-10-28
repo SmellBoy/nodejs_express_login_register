@@ -4,9 +4,9 @@
 
 ***
 
-[*demo*](https://myaccount.vantagefx.cn/tradingaccounts/registerdemo?i=Mzg0OTEmMzI3ODM2)
+[*The demo, please enter here](https://myaccount.vantagefx.cn/tradingaccounts/registerdemo?i=Mzg0OTEmMzI3ODM2)
 
-[*live*](https://myaccount.vantagefx.cn/tradingaccounts/registerlive?i=Mzg0OTEmMzI3ODM2)
+[*The live, please enter here](https://myaccount.vantagefx.cn/tradingaccounts/registerlive?i=Mzg0OTEmMzI3ODM2)
 
 ***
 
@@ -20,7 +20,7 @@
 `var i = 0;`
 
 ***
-```
+```js
 var i = 0;
 ```
 
