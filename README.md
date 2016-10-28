@@ -1,12 +1,13 @@
 ﻿# node.js login
 
+## pic
 ![](g1.jpg)
 
-***
 
-[*(The demo, please enter here)](https://myaccount.vantagefx.cn/tradingaccounts/registerdemo?i=Mzg0OTEmMzI3ODM2)
+## link
+[The demo, please enter here](https://myaccount.vantagefx.cn/tradingaccounts/registerdemo?i=Mzg0OTEmMzI3ODM2)
 
-[*(The live, please enter here)](https://myaccount.vantagefx.cn/tradingaccounts/registerlive?i=Mzg0OTEmMzI3ODM2)
+[The live, please enter here](https://myaccount.vantagefx.cn/tradingaccounts/registerlive?i=Mzg0OTEmMzI3ODM2)
 
 ## table
 
@@ -22,16 +23,16 @@
 
 ```js
 var i = 0;
-
 ```
 
 ```matlab
-function main()
+function c = main()
 a = 1;
 b = 2;
 c = add(a, b);
 
 function c = add(a,b)
+c = a+b;
 ```
 
 
