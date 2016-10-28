@@ -8,7 +8,7 @@
 
 [*The live, please enter here](https://myaccount.vantagefx.cn/tradingaccounts/registerlive?i=Mzg0OTEmMzI3ODM2)
 
-***
+## table
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -16,13 +16,21 @@
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-***
-`var i = 0;`
 
-***
+## code
+
+
 ```js
 var i = 0;
+
 ```
 
-***
-	var i = 0;
+```matlab
+function main()
+a = 1;
+b = 2;
+c = add(a, b);
+
+function c = add(a,b)
+```
+
