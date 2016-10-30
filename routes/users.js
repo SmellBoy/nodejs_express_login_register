@@ -13,7 +13,11 @@ router.get('/', function(req, res, next) {
 //TODO 同时支持get,post
  
 router.post('/login', function(req, res, next) {
-	userDao.login(req, res, next);
+	userDao.userlogin(req, res, next);
 });
- 
+
+router.get('/addUser', function(req, res, next) {
+	userDao.add(req, res, next);
+});
+
 module.exports = router;
