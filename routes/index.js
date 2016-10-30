@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET index page. */
 router.get('/', function(req, res,next) {
-  res.render('index', { title: 'Data Center' });    
+  res.render('index', { title: 'Login Center' });    
 });
 
-// /* GET login page. */
+/* GET login page. */
 // router.route("/login").get(function(req,res){    
 //     res.render("login",{title:'User Login'});
 // }).post(function(req,res){

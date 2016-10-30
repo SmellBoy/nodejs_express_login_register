@@ -12,13 +12,6 @@ var session = require('express-session');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-//global.dbHandel = require('./database/dbHandel');
-//global.db = mongoose.connect("mongodb://localhost:27017/nodedb");
-
-
-
-
-
 var app = express();
 app.use(
   session({
