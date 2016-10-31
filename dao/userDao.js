@@ -57,7 +57,7 @@ module.exports = {
                 	res.render('suc');
                 }
                 else{
-                	console.log(1111111111111111);   
+                	console.log(0000000000000000);   
                 	res.render('fail');             	
                 };
                 // jsonWrite(res, result);
@@ -84,6 +84,33 @@ module.exports = {
 				connection.release();
 			});
 		});
+	},
+
+	userregister: function (req, res, next) {
+		console.log(0000);
+		var param = req.body;
+        if(param.username == null || param.password == null) {
+			console.log(0000);
+            //jsonWrite(res, undefined);
+            return;
+        }
+		pool.getConnection(function(err, connection) {
+			console.log(0001);
+			connection.query($sql.sqlregister, [param.username, param.password], function(err, result) {
+				console.log(result);
+                if(result.affectedRows > 0){
+                	console.log(1111111111111111);
+                	res.render('suc1');
+                }
+                else{
+                	console.log(0000000000000000);   
+                	res.render('fail');             	
+                };
+                // jsonWrite(res, result);
+				connection.release();
+			});
+		});
+ 
 	},
 
 	test: function (req, res, next) {
