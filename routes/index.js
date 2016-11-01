@@ -93,4 +93,26 @@ router.get("/logout",function(req,res){    // 到达 /logout 路径则登出， 
     res.redirect("/");
 });
 
+router.route("/test").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test");
+})
+router.route("/test2").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test2");
+})
+router.route("/test3").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test3");
+})
+router.route("/test4").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test4");
+})
+router.route("/test5").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test5");
+})
+router.route("/test6").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test6");
+})
+router.route("/test7").get(function(req,res){    // 到达此路径则渲染login文件，并传出title值供 login.html使用
+    res.render("test7");
+})
+
 module.exports = router;
